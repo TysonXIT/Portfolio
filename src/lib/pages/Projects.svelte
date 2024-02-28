@@ -51,7 +51,24 @@
 </section>
 
 <style>
-  /* Add your existing styles here */
+  .projects {
+    background-color: #000; /* Black background color */
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .projects header h1 {
+    font-size: 3rem;
+    z-index: 1000;
+    position: sticky;
+    top: 20px;
+  }
 
   .otherProject {
     position: relative;
