@@ -17,13 +17,13 @@
       secondary: "#03052a",
     },
     projects: {
-      background: "##110a25",
+      background: "#5A0418",
       primary: "#22374f",
       accent: "#0a0508",
       secondary: "#bdefda",
     },
     contact: {
-      background: "##110a10",
+      background: "#5A3504",
       primary: "#9fcee9",
       secondary: "#1a191a",
       accent: "#9fa9e9",
