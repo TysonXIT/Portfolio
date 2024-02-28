@@ -17,7 +17,7 @@
     {
       name: "My Portfolio",
       link: "https://github.com/TysonXIT/Portfolio",
-      preview: "path/to/portfolio-preview-image.jpg", // Add project preview image path
+      preview: "path/to/portfolio-preview-image.jpg", // Add correct image path
     },
     // Add more other projects as needed
   ];
