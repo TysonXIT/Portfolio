@@ -1,26 +1,18 @@
 <script lang="ts">
   const links = [
     {
-      name: "Github",
-      link: "https://github.com/Tyson3101",
-      icon: "https://img.icons8.com/color/48/github--v1.png",
-    },
-    {
-      name: "Twitter",
-      link: "https://twitter.com/messages/compose?recipient_id=1228810844999274497",
-      icon: "https://img.icons8.com/color/48/twitter--v1.png",
-    },
-
-    {
       name: "Discord",
-      link: "https://discord.com/users/397737988915724310",
+      link: "https://discord.com/users/1196325181896007790",
       icon: "https://img.icons8.com/color/48/discord-logo.png",
     },
+    // Add more links as needed
   ];
 </script>
 
-<section class="contact" id="contact" data-page="contact">
-  <header><h1>Contact Me</h1></header>
+<section class="contact" id="contact">
+  <header>
+    <h1>Contact Me</h1>
+  </header>
   <div class="links">
     {#each links as link}
       <button>
@@ -50,7 +42,7 @@
         required
       />
       <label for="message">Message</label>
-      <textarea name="message" id="message" placeholder="Hello" required />
+      <textarea name="message" id="message" placeholder="Hello" required></textarea>
       <button type="submit">Send</button>
     </form>
   </div>
@@ -58,7 +50,7 @@
 
 <style>
   .contact {
-    background-color: #684a70;
+    background-color: #000;
     color: white;
     width: 100%;
     min-height: 100vh;
@@ -143,19 +135,18 @@
     margin-bottom: 0.5rem;
   }
 
-  .contact form input {
+  .contact form input,
+  .contact form textarea {
     padding: 0.2rem;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     border: none;
     border-radius: 0.5rem;
+    background-color: #111; /* Dark background color */
+    color: white;
   }
+
   .contact form textarea {
-    padding: 0.3rem 0.8rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 0.5rem;
     height: 60px;
   }
 
