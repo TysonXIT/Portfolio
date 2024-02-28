@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import Project from "../components/Project.svelte";
 
   const favouriteProjects = [
@@ -17,7 +17,7 @@
     {
       name: "My Portfolio",
       link: "https://github.com/TysonXIT/Portfolio",
-      preview: "path/to/portfolio-preview-image.jpg", // Add correct image path
+      preview: "path/to/portfolio-preview-image.jpg", // Add project preview image path
     },
     // Add more other projects as needed
   ];
@@ -28,9 +28,14 @@
     <h1>My Favorite Projects</h1>
   </header>
   <div class="favouriteProjects">
-    {#each favouriteProjects as project, i}
+    {#each favouriteProjects as { name, description, github, language, live, stats }, i}
       <Project
-        {...project}
+        name={name}
+        description={description}
+        github={github}
+        language={language}
+        live={live}
+        stats={stats}
       />
     {/each}
   </div>
@@ -41,10 +46,10 @@
     </h1>
   </header>
   <div class="otherProjects">
-    {#each otherProjects as project, i}
-      <a href={project.link} target="_blank" class="otherProject">
-        <img src={project.preview} alt="Project Preview" />
-        <span>{project.name}</span>
+    {#each otherProjects as { name, link, preview }, i}
+      <a href={link} target="_blank" class="otherProject">
+        <img src={preview} alt="Project Preview" />
+        <span>{name}</span>
       </a>
     {/each}
   </div>
