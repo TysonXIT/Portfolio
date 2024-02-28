@@ -2,8 +2,8 @@
   import { onMount } from 'svelte';
 
   onMount(() => {
-    // Redirect to GitHub after component has mounted
-    window.location.href = 'https://github.com/TysonXIT';
+    // Open GitHub link in a new tab
+    window.open('https://github.com/TysonXIT', '_blank');
   });
 </script>
 
