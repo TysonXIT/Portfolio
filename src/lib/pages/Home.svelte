@@ -2,22 +2,22 @@
   const links = [
     {
       name: "Github",
-      link: "https://github.com/Tyson3101",
+      link: "https://github.com/TysonXIT",
       icon: "https://img.icons8.com/color/48/github--v1.png",
     },
     {
       name: "Twitter",
-      link: "https://twitter.com/Tyson3101",
+      link: "https://twitter.com/ElonMusk",
       icon: "https://img.icons8.com/color/48/twitter--v1.png",
     },
     {
       name: "Youtube",
-      link: "https://www.youtube.com/@Tyson3101",
+      link: "https://www.youtube.com/@Google",
       icon: "https://img.icons8.com/color/48/youtube-play.png",
     },
     {
       name: "Discord",
-      link: "https://discord.com/users/397737988915724310",
+      link: "https://discord.com/users/1196325181896007790",
       icon: "https://img.icons8.com/color/48/discord-logo.png",
     },
   ];
@@ -26,8 +26,8 @@
 <section class="home" id="home" data-page="home">
   <div class="wrapper">
     <header>
-      <h1 class="text-colour-effect">Tyson3101</h1>
-      <h2>Rocket League GC, Typescript Main.</h2>
+      <h1 class="text-colour-effect">Tyson XIT</h1>
+      <h2>Rocket League GC, Typescript & Javascript Main.</h2>
     </header>
     <div class="links">
       {#each links as link}
