@@ -24,7 +24,7 @@
     {/each}
   </div>
   <div class="wrapper">
-    <form action="https://formspree.io/f/xleyedwo" method="POST">
+    <form action="https://formspree.io/f/mpzvrjjn" method="POST">
       <label for="name">Name</label>
       <input
         type="text"
